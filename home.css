@@ -32,10 +32,13 @@ nav ul li a {
 }
 
 .hero {
-  background: url("hehe1.jpg") center/cover no-repeat;
-  color: #fff;
-  text-align: center;
-  padding: 100px 20px;
+background: url("abc.jpeg") no-repeat;
+background-size: cover;
+background-position: right;
+color: #fff;
+text-align: center;
+padding: 320px 20px;
+
 }
 
 .hero h2 {
@@ -82,12 +85,8 @@ nav ul li a {
 .top-left {
   position: absolute;
   font-family: ROBOTO;
-  top: 150px;
-  left: 450px;
-  color: white;
-  font-size: 24px;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  top: 300px;
+  left: 320px;
   padding: 10px 20px;
 }
 .top-right {
@@ -101,18 +100,10 @@ nav ul li a {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
 }
-header {
-  background: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
 
 header1 {
-  background: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
+  background:beige;
+  padding: 10px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -139,8 +130,28 @@ html {
 .hide-nav {
   transform: translateY(-100%);
 }
+
 .empty-space {
   height: 115px;
   width: 100%;
   display: block;
 }
+
+
+.nav-link {
+  color: brown; 
+}
+
+.nav-link.active {
+  color: brown; 
+}
+
+.body2 {
+  background-color:#e5eaf5; /* Dark background color */
+  color:#913f92; /* Text color */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
